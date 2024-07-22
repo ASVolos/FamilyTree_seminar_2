@@ -8,7 +8,6 @@ import java.util.List;
 import java.util.Scanner;
 
 public class FamilyTree implements Serializable {
-    private long humansId;
     private List<Human> familyMembers;
     Scanner sc = new Scanner(System.in);
 

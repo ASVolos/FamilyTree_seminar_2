@@ -16,7 +16,7 @@ public class Human implements Serializable {
 
     public Human(String name, String secondName, LocalDate birthDate, LocalDate deathDate,
                  Gender gender, Human father, Human mother) {
-        //id = -1;
+        // id = -1;
         this.name = name;
         this.secondName = secondName;
         this.birthDate = birthDate;
@@ -54,12 +54,10 @@ public class Human implements Serializable {
 
     public LocalDate getBirthDate() {
         return birthDate;
-
     }
 
     public LocalDate getDeathDate() {
         return deathDate;
-
     }
 
     public List<Human> getChildren() {
